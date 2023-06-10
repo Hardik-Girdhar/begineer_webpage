@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+header{
+  text-align: center;
+}
+
+.header{
+  background: #6900d1;
+}
+
+.navbar{
+  padding-top: 1rem;
+}
+
+#navbarNav{
+  margin-left: 37rem;
+}
+
+
+.nav-item{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link{
+  color: #ffff !important;
+  font-size: 12px !important;
+  padding: 0 0 5px 0  !important;
+  display: unset !important;
+}
+.navbar-brand img{
+  width: 45px;
+}
+
+.active-home{
+  border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid #F0816A;
+  transition: 150ms;
+}
+
+.banner{
+  margin-top: 8px !important;
+  color: #fff;
+  margin-left: 100px !important;
+}
+
+.banner h1{
+  margin: 130px 0 25px;
+  font-weight: 600;
+  font-size: 50px;
+
+}
+
+.banner img{
+  max-height: 350px;
+  margin-top: 9rem;
+  margin-left: 6rem;
+}
+
+.banner a{
+  padding: 11px;
+  width: 200px;
+  display: inline block;
+  background: #6900d1;
+  text-decoration: none !important;
+  color: rgba(240, 129, 106, 1);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+
+  font-size: 14px;
+
+}
+
+.banner a:hover{
+  color: black;
+  background-color:#fff;
+  transition: 500ms;
+
+}
+
+.express-btn{
+  background: rgba(240, 129, 106, 0.8) !important;
+  color: white !important;
+  margin-right: 5px;
+}
+
+.express-btn:hover{
+  background-color:#fff !important;
+  color: black !important;
+  transition: 500ms;
+}
+
+.services{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 30px;
+}
+
+.subtitle{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.service-box{
+   padding: 0 55px;
+   cursor: pointer;
+   margin-top: 20px;
+   margin-bottom: 10px;
+  background-color: rgba(240, 129, 106, 0.4);
+
+}
+
+.service-box img{
+  width: 60px;
+  margin-top: 65px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+}
+
+.service-box h6{
+  margin-bottom: 40px;
+  font-weight: bold;
+
+}
+
+.services-box p{
+  font-size: 14px;
+  color: #808080;
+
+}
+
+.service-box:hover{
+  background: #6900d1;
+  border-radius: 5px;
+  color: #fff !important;
+  box-shadow: 0 15px  15px 0 rgba(213, 213, 213, 0.5);
+  transition: 1200ms;
+}
+
+.service-box:hover p{
+color: #fff;
+transition: 1200ms;
+}
+
+.d{
+  padding: 11px;
+  width: 300px;
+  display: inline block;
+  background: rgba(105, 0, 209, 0.5);
+  text-decoration: none !important;
+  color:#fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: -40px;
+}
+
+.d:hover{
+  color: white;
+  background: rgba(240, 129, 106, 0.8);
+  transition: 200ms;
+}
+
+/* ----------------Bio---------------------- */
+
+.review{
+  margin: 100px 0;
+}
+
+.carousel-item img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.carousel-item{
+  text-align: center;
+  height:430px;
+
+}
+.f{
+  margin-top: 35px;
+  box-shadow: 0 0 15px 3px rgba(166,163 , 233, 0.7);
+}
+
+.carousel-caption{
+  z-index: -1 !important;
+  box-shadow: 0 0 15px 1px rgba(166, 163 , 233, 0.5);
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.carousel-caption h5{
+  margin-top: 55px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.carousel-caption small{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: block;
+  color: #000 !important;
+}
+
+.carousel-caption p{
+  text-align: center;
+  padding: 0 50px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.carousel-indicators button{
+  background-color: #6900d1 !important;
+}
+
+/* -------------- Footer ---------------- */
+
+.footer{
+  background: #6900d1;
+  padding-top: 5px;
+}
+
+.footer h2{
+  color: #fff;
+  font-weight: 600;
+  margin: 70px 0;
+  text-align: center;
+}
+
+.footer input{
+  width: 60%;
+  background: #6900d1;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  margin-left: 225px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+::placeholder{
+  color: rgba(240, 129, 106, 0.8);
+  font-size: 13px;
+
+}
+
+.footer button{
+  padding: 6px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  color: #fff;
+  border-radius: 1px solid #fff !important;
+  font-size: 20px;
+  background: #6900d1;
+}
+
+.footer small{
+  font-size: 14px;
+  padding: 70px;
+  padding-bottom: 20px;
+  color: rgba(240, 129, 106, 0.7);
+  display: block;
+  text-align: center;
+}
